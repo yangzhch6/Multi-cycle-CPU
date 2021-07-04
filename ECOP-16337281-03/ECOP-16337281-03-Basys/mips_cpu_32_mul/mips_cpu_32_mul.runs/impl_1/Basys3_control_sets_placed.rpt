@@ -1,0 +1,138 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Dec 19 15:18:04 2017
+| Host         : DESKTOP-H0DV5R6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Basys3_control_sets_placed.rpt
+| Design       : Basys3
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    76 |
+| Unused register locations in slices containing registers |    11 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             649 |          323 |
+| No           | No                    | Yes                    |              55 |           26 |
+| No           | Yes                   | No                     |              77 |           29 |
+| Yes          | No                    | No                     |              32 |           19 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+----------------------+------------------------------+------------------+----------------+
+|          Clock Signal         |     Enable Signal    |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
++-------------------------------+----------------------+------------------------------+------------------+----------------+
+|  Top/_IR/E[0]                 |                      | Top/_IR/AS[0]                |                2 |              5 |
+|  Top/ALUout/out_reg[7]_105[0] |                      |                              |                6 |              8 |
+|  Top/ALUout/out_reg[7]_1[0]   |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_101[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_109[0] |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_113[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_117[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_121[0] |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_125[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_129[0] |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_13[0]  |                      |                              |                6 |              8 |
+|  Top/ALUout/out_reg[7]_133[0] |                      |                              |                6 |              8 |
+|  Top/ALUout/out_reg[7]_137[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_141[0] |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_169[0] |                      |                              |                7 |              8 |
+|  Top/ALUout/out_reg[7]_173[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_181[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_197[0] |                      |                              |                7 |              8 |
+|  Top/ALUout/out_reg[7]_205[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_209[0] |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_21[0]  |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_225[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_45[0]  |                      |                              |                2 |              8 |
+|  Top/ALUout/out_reg[7]_89[0]  |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_157[0] |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_161[0] |                      |                              |                7 |              8 |
+|  Top/ALUout/out_reg[7]_165[0] |                      |                              |                6 |              8 |
+|  Top/ALUout/out_reg[7]_17[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_177[0] |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_185[0] |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_189[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_193[0] |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_201[0] |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_213[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_217[0] |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_221[0] |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_229[0] |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_233[0] |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_237[0] |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_241[0] |                      |                              |                2 |              8 |
+|  Top/ALUout/out_reg[7]_245[0] |                      |                              |                6 |              8 |
+|  Top/ALUout/out_reg[7]_249[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_25[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_29[0]  |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_33[0]  |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_37[0]  |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_41[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_49[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_5[0]   |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_53[0]  |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_57[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_61[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_65[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_69[0]  |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_73[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_77[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_81[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_85[0]  |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_145[0] |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_9[0]   |                      |                              |                4 |              8 |
+|  Top/ALUout/out_reg[7]_149[0] |                      |                              |                3 |              8 |
+|  Top/ALUout/out_reg[7]_93[0]  |                      |                              |                5 |              8 |
+|  Top/ALUout/out_reg[7]_97[0]  |                      |                              |                6 |              8 |
+|  Top/ALUout/out_reg[7]_153[0] |                      |                              |                4 |              8 |
+|  CLK_div/out[0]               |                      |                              |                3 |              8 |
+|  Top/ALUout/E[0]              |                      |                              |                3 |              8 |
+| ~m_bntr_BUFG                  |                      | Reset_IBUF                   |                4 |              8 |
+|  CLK_div/out[0]               |                      | Display_out/data[15]_i_2_n_1 |                7 |             16 |
+|  CLK_IBUF_BUFG                |                      |                              |                7 |             22 |
+|  m_bntr_BUFG                  |                      | Top/_IR/out_reg[31]_0        |                9 |             32 |
+|  m_bntr_BUFG                  |                      | Top/_IR/out_reg[31]_1        |               14 |             32 |
+| ~m_bntr_BUFG                  | Top/_CtrlUnit/out[0] |                              |               19 |             32 |
+|  n_0_2705_BUFG                |                      |                              |               19 |             32 |
+|  PCWre                        |                      | Reset_IBUF                   |               19 |             39 |
+|  m_bntr_BUFG                  |                      |                              |               28 |             75 |
+|  Button/out_reg[1]_BUFG       | Top/_CtrlUnit/p_0_in |                              |               12 |             96 |
++-------------------------------+----------------------+------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 5      |                     1 |
+| 8      |                    66 |
+| 16+    |                     9 |
++--------+-----------------------+
+
+

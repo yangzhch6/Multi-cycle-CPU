@@ -1,0 +1,49 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 3d1b48344e6747c09c5ef7cae0fea4ba --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_sim_behav xil_defaultlib.Top_sim xil_defaultlib.glbl -log elaborate.log -cc clang 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 21 differs from formal bit length 32 for port B [C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/Top.v:66]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pc.v" Line 3. Module pc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pcAddFour.v" Line 3. Module pcAddFour doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_5_Bit.v" Line 1. Module dataSelect_5_Bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/regfile.v" Line 1. Module RegFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/signExtend.v" Line 1. Module signExtend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_32_Bit.v" Line 1. Module dataSelect_32_Bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_32_Bit.v" Line 1. Module dataSelect_32_Bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_32_Bit.v" Line 1. Module dataSelect_32_Bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pcAddImm.v" Line 1. Module pcAddImm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/jump.v" Line 2. Module jump doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pc.v" Line 3. Module pc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pcAddFour.v" Line 3. Module pcAddFour doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_5_Bit.v" Line 1. Module dataSelect_5_Bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/regfile.v" Line 1. Module RegFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/signExtend.v" Line 1. Module signExtend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_32_Bit.v" Line 1. Module dataSelect_32_Bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_32_Bit.v" Line 1. Module dataSelect_32_Bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_32_Bit.v" Line 1. Module dataSelect_32_Bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pcAddImm.v" Line 1. Module pcAddImm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/jump.v" Line 2. Module jump doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dataSelect_321
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.pcAddFour
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.dataSelect_5_Bit
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.signExtend
+Compiling module xil_defaultlib.dataSelect_32_Bit
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.pcAddImm
+Compiling module xil_defaultlib.jump
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.Top_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_sim_behav

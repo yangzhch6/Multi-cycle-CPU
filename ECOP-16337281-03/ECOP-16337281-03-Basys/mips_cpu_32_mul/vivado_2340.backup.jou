@@ -1,0 +1,224 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Dec 13 02:42:47 2017
+# Process ID: 2340
+# Current directory: C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15248 C:\Users\ASROCK\Desktop\mips_cpu_32_mul\mips_cpu_32_mul\mips_cpu_32_mul.xpr
+# Log file: C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/vivado.log
+# Journal file: C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.xpr
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Basys3.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Basys3.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Button.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Button.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/CLK_div.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/CLK_div.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Display_out.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Display_out.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/led_7.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/led_7.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Mux_2_1.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Mux_2_1.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Add.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Add.v
+remove_files  C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/InsMemory.v
+file delete -force C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/InsMemory.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/InsMem.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/InsMem.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/CtrlUnit.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/CtrlUnit.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/IR.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/IR.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Mux_3_1.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Mux_3_1.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/DataDelay.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/DataDelay.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/SignExtend.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/SignExtend.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/MoveL.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/MoveL.v
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/PCJump.v w ]
+add_files C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/PCJump.v
+remove_files  {C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/DataLate.v C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/DataMemory.v C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/DataSelect_2.v C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Extend.v C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/PCAddr.v C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/controlUnit.v}
+file delete -force C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/DataLate.v C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/DataMemory.v C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/DataSelect_2.v C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Extend.v C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/PCAddr.v C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/controlUnit.v
+update_compile_order -fileset sim_1
+launch_simulation
+source Basys3.tcl
+close_sim
+launch_simulation
+source Basys3.tcl
+close_sim
+remove_files  C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/sources_1/new/Basys3.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+add_files -norecurse C:/Users/ASROCK/Desktop/mips_cpu_32_basys/mips_cpu_32.runs/impl_1/Basys3_opt.dcp
+remove_files  C:/Users/ASROCK/Desktop/mips_cpu_32_basys/mips_cpu_32.runs/impl_1/Basys3_opt.dcp
+add_files -norecurse C:/Users/ASROCK/Desktop/mips_cpu_32_basys/mips_cpu_32.srcs/sources_1/new/Basys3.v
+update_compile_order -fileset sources_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+close_design
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {display_out[7]} {display_out[6]} {display_out[5]} {display_out[4]} {display_out[3]} {display_out[2]} {display_out[1]} {display_out[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {scan[3]} {scan[2]} {scan[1]} {scan[0]}]]
+place_ports {display_out[7]} V7
+set_property package_pin "" [get_ports [list  {display_out[5]}]]
+place_ports {display_out[6]} U7
+set_property package_pin "" [get_ports [list  {display_out[6]}]]
+set_property package_pin "" [get_ports [list  {display_out[7]}]]
+place_ports {display_out[7]} V7
+place_ports {display_out[6]} U7
+place_ports {display_out[5]} V5
+place_ports {display_out[4]} U5
+place_ports {display_out[3]} V8
+place_ports {display_out[2]} U8
+place_ports {display_out[1]} W6
+place_ports {display_out[0]} W7
+place_ports {scan[3]} W4
+place_ports {scan[2]} V4
+place_ports {scan[1]} U4
+place_ports {scan[0]} U2
+set_property IOSTANDARD LVCMOS33 [get_ports [list bntr]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list CLK]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Reset]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list Reset]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list RST]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list sw14]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list sw15]]
+set_property package_pin "" [get_ports [list  CLK]]
+place_ports bntr T17
+place_ports CLK W5
+place_ports Reset W2
+place_ports RST R3
+place_ports sw14 T1
+place_ports sw15 R2
+file mkdir C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/constrs_1/new
+close [ open C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/constrs_1/new/Basys3.xdc w ]
+add_files -fileset constrs_1 C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/constrs_1/new/Basys3.xdc
+set_property target_constrs_file C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.srcs/constrs_1/new/Basys3.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+launch_simulation
+source Basys3.tcl
+add_wave {{/Basys3/Top}} 
+set_property top test_CPU [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+launch_simulation
+launch_simulation
+source test_CPU.tcl
+close_sim
+launch_simulation
+source test_CPU.tcl
+close_sim
+launch_simulation
+source test_CPU.tcl
+close_sim
+launch_simulation
+source test_CPU.tcl
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+close_sim
+launch_simulation
+source test_CPU.tcl
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+launch_simulation
+launch_simulation
+source test_CPU.tcl
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+close_sim

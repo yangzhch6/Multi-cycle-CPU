@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/ALU.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/MoveL.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/IR.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/InsMem.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/DataMem.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/DataDelay.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/CtrlUnit.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/ADD.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/Mux_2_1.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/Mux_3_1.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/Mux_4_1.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/PC.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/PCJump.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/RegFile.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/SignExtend.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sources_1/new/Mul_Cycle_CPU.v"
+verilog xil_defaultlib  "../../../ECOP-16337281-03.srcs/sim_1/new/test_CPU.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

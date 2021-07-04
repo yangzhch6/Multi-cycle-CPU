@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Oct 09 21:45:13 2018
+# Process ID: 25100
+# Current directory: F:/computer science/course/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24440 F:\computer science\course\计算机组成原理\实验报告\ECOP-16337281-02\mips_cpu_32\mips_cpu_32.xpr
+# Log file: F:/computer science/course/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32/vivado.log
+# Journal file: F:/computer science/course/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/computer science/course/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32/mips_cpu_32.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/DELL/Desktop/mips_cpu_32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Output Repository Path: Could not find the directory 'F:/computer science/course/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32/mips_cpu_32.cache/ip', nor could it be found using path 'C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 835.879 ; gain = 168.406
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 09 21:46:44 2018...

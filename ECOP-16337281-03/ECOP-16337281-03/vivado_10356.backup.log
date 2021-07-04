@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Dec 19 18:38:38 2017
+# Process ID: 10356
+# Current directory: C:/Users/DELL/Desktop/ECOP-16337281-03
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18916 C:\Users\DELL\Desktop\ECOP-16337281-03\ECOP-16337281-03.xpr
+# Log file: C:/Users/DELL/Desktop/ECOP-16337281-03/vivado.log
+# Journal file: C:/Users/DELL/Desktop/ECOP-16337281-03\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2016.3/data/ip'.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/MoveL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MoveL
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/InsMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InsMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/DataDelay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataDelay
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/CtrlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CtrlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/Mux_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/Mux_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/Mux_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/PCJump.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCJump
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/SignExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/Mul_Cycle_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mul_Cycle_CPU
+INFO: [VRFC 10-2458] undeclared symbol RegWre, assumed default net type wire [C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/Mul_Cycle_CPU.v:55]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sim_1/new/test_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 99e6457fc1034ddab791dc45c3a810e5 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_CPU_behav xil_defaultlib.test_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Add
+Compiling module xil_defaultlib.InsMem
+Compiling module xil_defaultlib.CtrlUnit
+Compiling module xil_defaultlib.IR
+Compiling module xil_defaultlib.Mux_2_1
+Compiling module xil_defaultlib.Mux_3_1
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.DataDelay
+Compiling module xil_defaultlib.SignExtend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.MoveL
+Compiling module xil_defaultlib.PCJump
+Compiling module xil_defaultlib.Mux_4_1
+Compiling module xil_defaultlib.Mul_Cycle_CPU
+Compiling module xil_defaultlib.test_CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_CPU_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.sim/sim_1/behav/xsim.dir/test_CPU_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.sim/sim_1/behav/xsim.dir/test_CPU_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Dec 19 18:39:03 2017. For additional details about this file, please refer to the WebTalk help file at E:/vivado/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 19 18:39:03 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 797.016 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_CPU_behav -key {Behavioral:sim_1:Functional:test_CPU} -tclbatch {test_CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source test_CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 811.309 ; gain = 14.293
+run all
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'run' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 824.082 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 19 18:39:31 2017...

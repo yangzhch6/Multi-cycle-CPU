@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Dec 19 18:38:38 2017
+# Process ID: 10356
+# Current directory: C:/Users/DELL/Desktop/ECOP-16337281-03
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18916 C:\Users\DELL\Desktop\ECOP-16337281-03\ECOP-16337281-03.xpr
+# Log file: C:/Users/DELL/Desktop/ECOP-16337281-03/vivado.log
+# Journal file: C:/Users/DELL/Desktop/ECOP-16337281-03\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.xpr
+launch_simulation
+source test_CPU.tcl
+run all
+close_sim

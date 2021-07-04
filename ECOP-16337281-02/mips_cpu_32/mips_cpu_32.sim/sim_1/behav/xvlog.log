@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/jump.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jump
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pcAddImm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcAddImm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pcAddFour.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcAddFour
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_5_Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataSelect_5_Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_32_Bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataSelect_32_Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_321.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataSelect_321
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sim_1/new/Top_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

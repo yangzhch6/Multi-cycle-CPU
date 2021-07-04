@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Dec 22 01:09:40 2017
+# Process ID: 3308
+# Current directory: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/synth_1
+# Command line: vivado.exe -log Basys3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Basys3.tcl
+# Log file: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/synth_1/Basys3.vds
+# Journal file: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Basys3.tcl -notrace

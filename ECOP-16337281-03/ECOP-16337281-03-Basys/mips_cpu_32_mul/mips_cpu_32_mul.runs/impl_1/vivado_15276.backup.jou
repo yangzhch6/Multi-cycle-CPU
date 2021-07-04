@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Dec 19 15:19:02 2017
+# Process ID: 15276
+# Current directory: C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.runs/impl_1
+# Command line: vivado.exe -log Basys3.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Basys3.tcl -notrace
+# Log file: C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.runs/impl_1/Basys3.vdi
+# Journal file: C:/Users/ASROCK/Desktop/mips_cpu_32_mul/mips_cpu_32_mul/mips_cpu_32_mul.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Basys3.tcl -notrace

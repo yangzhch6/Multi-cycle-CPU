@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Nov 24 18:16:33 2017
+# Process ID: 11852
+# Current directory: F:/computer science/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32basys
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3136 F:\computer science\计算机组成原理\实验报告\ECOP-16337281-02\mips_cpu_32basys\mips_cpu_32.xpr
+# Log file: F:/computer science/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32basys/vivado.log
+# Journal file: F:/computer science/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32basys\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/computer science/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32basys/mips_cpu_32.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/DELL/Desktop/mips_cpu_32basys' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Output Repository Path: Could not find the directory 'F:/computer science/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32basys/mips_cpu_32.cache/ip', nor could it be found using path 'C:/Users/DELL/Desktop/mips_cpu_32basys/mips_cpu_32.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2016.3/data/ip'.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 35 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [F:/computer science/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32basys/mips_cpu_32.srcs/constrs_2/new/cpu_cst.xdc]
+Finished Parsing XDC File [F:/computer science/计算机组成原理/实验报告/ECOP-16337281-02/mips_cpu_32basys/mips_cpu_32.srcs/constrs_2/new/cpu_cst.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1116.344 ; gain = 264.871
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 25 11:05:45 2017...

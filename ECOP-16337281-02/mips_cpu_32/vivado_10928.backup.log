@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Dec 26 18:00:06 2017
+# Process ID: 10928
+# Current directory: C:/Users/ASROCK/Desktop/mips_cpu_32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9928 C:\Users\ASROCK\Desktop\mips_cpu_32\mips_cpu_32.xpr
+# Log file: C:/Users/ASROCK/Desktop/mips_cpu_32/vivado.log
+# Journal file: C:/Users/ASROCK/Desktop/mips_cpu_32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/ASROCK/Desktop/mips_cpu_32/mips_cpu_32.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2016.3/data/ip'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 26 18:00:31 2017...

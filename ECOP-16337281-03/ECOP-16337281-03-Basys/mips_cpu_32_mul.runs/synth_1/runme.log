@@ -1,0 +1,848 @@
+
+*** Running vivado
+    with args -log Basys3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Basys3.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Basys3.tcl -notrace
+Command: synth_design -top Basys3 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3580 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 320.551 ; gain = 110.895
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Basys3' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Basys3.v:23]
+INFO: [Synth 8-638] synthesizing module 'CPU' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Top.v:21]
+INFO: [Synth 8-638] synthesizing module 'PC' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/PC.v:21]
+WARNING: [Synth 8-5788] Register out_PC_reg in module PC is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/PC.v:28]
+INFO: [Synth 8-256] done synthesizing module 'PC' (1#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/PC.v:21]
+INFO: [Synth 8-638] synthesizing module 'Add' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Add.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Add' (2#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Add.v:21]
+INFO: [Synth 8-638] synthesizing module 'InsMem' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/InsMem.v:21]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/binarycode.txt' is read successfully [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/InsMem.v:29]
+INFO: [Synth 8-256] done synthesizing module 'InsMem' (3#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/InsMem.v:21]
+INFO: [Synth 8-638] synthesizing module 'CtrlUnit' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/CtrlUnit.v:21]
+	Parameter IF bound to: 3'b000 
+	Parameter ID bound to: 3'b001 
+	Parameter EXE1 bound to: 3'b110 
+	Parameter EXE2 bound to: 3'b101 
+	Parameter EXE3 bound to: 3'b010 
+	Parameter WB1 bound to: 3'b111 
+	Parameter WB2 bound to: 3'b100 
+	Parameter MEM bound to: 3'b011 
+	Parameter Add bound to: 6'b000000 
+	Parameter Sub bound to: 6'b000001 
+	Parameter Addi bound to: 6'b000010 
+	Parameter Or bound to: 6'b010000 
+	Parameter And bound to: 6'b010001 
+	Parameter Ori bound to: 6'b010010 
+	Parameter Sll bound to: 6'b011000 
+	Parameter Slt bound to: 6'b100110 
+	Parameter Slti bound to: 6'b100111 
+	Parameter Sw bound to: 6'b110000 
+	Parameter Lw bound to: 6'b110001 
+	Parameter Beq bound to: 6'b110100 
+	Parameter J bound to: 6'b111000 
+	Parameter Jr bound to: 6'b111001 
+	Parameter Jal bound to: 6'b111010 
+	Parameter Halt bound to: 6'b111111 
+	Parameter Bne bound to: 6'b110101 
+	Parameter Bgtz bound to: 6'b110110 
+WARNING: [Synth 8-567] referenced signal 'Zero' should be on the sensitivity list [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/CtrlUnit.v:122]
+WARNING: [Synth 8-567] referenced signal 'Sign' should be on the sensitivity list [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/CtrlUnit.v:122]
+INFO: [Synth 8-256] done synthesizing module 'CtrlUnit' (4#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/CtrlUnit.v:21]
+INFO: [Synth 8-638] synthesizing module 'IR' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/IR.v:21]
+INFO: [Synth 8-256] done synthesizing module 'IR' (5#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/IR.v:21]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_1' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_2_1.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_1' (6#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_2_1.v:21]
+INFO: [Synth 8-638] synthesizing module 'Mux_3_1' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_3_1.v:21]
+WARNING: [Synth 8-567] referenced signal 'in_0' should be on the sensitivity list [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_3_1.v:33]
+INFO: [Synth 8-256] done synthesizing module 'Mux_3_1' (7#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_3_1.v:21]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/RegFile.v:21]
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (8#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/RegFile.v:21]
+INFO: [Synth 8-638] synthesizing module 'DataDelay' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataDelay.v:21]
+INFO: [Synth 8-256] done synthesizing module 'DataDelay' (9#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataDelay.v:21]
+INFO: [Synth 8-638] synthesizing module 'SignExtend' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/SignExtend.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SignExtend' (10#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/SignExtend.v:21]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/ALU.v:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/ALU.v:34]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (11#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/ALU.v:21]
+INFO: [Synth 8-638] synthesizing module 'DataMem' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:21]
+WARNING: [Synth 8-567] referenced signal 'in_Data' should be on the sensitivity list [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:33]
+WARNING: [Synth 8-567] referenced signal 'Addr' should be on the sensitivity list [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:33]
+INFO: [Synth 8-256] done synthesizing module 'DataMem' (12#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:21]
+INFO: [Synth 8-638] synthesizing module 'MoveL' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/MoveL.v:21]
+INFO: [Synth 8-256] done synthesizing module 'MoveL' (13#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/MoveL.v:21]
+INFO: [Synth 8-638] synthesizing module 'PCJump' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/PCJump.v:21]
+INFO: [Synth 8-256] done synthesizing module 'PCJump' (14#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/PCJump.v:21]
+INFO: [Synth 8-638] synthesizing module 'Mux_4_1' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_4_1.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Mux_4_1' (15#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_4_1.v:21]
+INFO: [Synth 8-256] done synthesizing module 'CPU' (16#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Top.v:21]
+INFO: [Synth 8-638] synthesizing module 'Light' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Button.v:2]
+INFO: [Synth 8-256] done synthesizing module 'Light' (17#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Button.v:2]
+INFO: [Synth 8-638] synthesizing module 'clock' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/CLK_div.v:4]
+INFO: [Synth 8-256] done synthesizing module 'clock' (18#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/CLK_div.v:4]
+INFO: [Synth 8-638] synthesizing module 'Display' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Display_out.v:2]
+INFO: [Synth 8-638] synthesizing module 'led_7' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/led_7.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/led_7.v:28]
+INFO: [Synth 8-256] done synthesizing module 'led_7' (19#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/led_7.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Display' (20#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Display_out.v:2]
+INFO: [Synth 8-256] done synthesizing module 'Basys3' (21#1) [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Basys3.v:23]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[31]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[30]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[29]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[28]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[27]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[26]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[25]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[24]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[23]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[22]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[21]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[20]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[19]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[18]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[17]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[16]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[15]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[14]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[13]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[12]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[11]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[10]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[9]
+WARNING: [Synth 8-3331] design Display has unconnected port rs_data[8]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[31]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[30]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[29]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[28]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[27]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[26]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[25]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[24]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[23]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[22]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[21]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[20]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[19]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[18]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[17]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[16]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[15]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[14]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[13]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[12]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[11]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[10]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[9]
+WARNING: [Synth 8-3331] design Display has unconnected port rt_data[8]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[31]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[30]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[29]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[28]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[27]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[26]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[25]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[24]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[23]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[22]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[21]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[20]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[19]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[18]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[17]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[16]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[15]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[14]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[13]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[12]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[11]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[10]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[9]
+WARNING: [Synth 8-3331] design Display has unconnected port Result[8]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[31]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[30]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[29]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[28]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[27]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[26]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[25]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[24]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[23]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[22]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[21]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[20]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[19]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[18]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[17]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[16]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[15]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[14]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[13]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[12]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[11]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[10]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[9]
+WARNING: [Synth 8-3331] design Display has unconnected port WriteData[8]
+WARNING: [Synth 8-3331] design PCJump has unconnected port in_pc[27]
+WARNING: [Synth 8-3331] design PCJump has unconnected port in_pc[26]
+WARNING: [Synth 8-3331] design PCJump has unconnected port in_pc[25]
+WARNING: [Synth 8-3331] design PCJump has unconnected port in_pc[24]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 362.656 ; gain = 153.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 362.656 ; gain = 153.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/constrs_1/new/Basys3.xdc]
+Finished Parsing XDC File [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/constrs_1/new/Basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/constrs_1/new/Basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Basys3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Basys3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 662.730 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 662.730 ; gain = 453.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 662.730 ; gain = 453.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 662.730 ; gain = 453.074
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'State_reg' in module 'CtrlUnit'
+INFO: [Synth 8-5587] ROM size for "ALUOp" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "ALUSrcA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "IRWre" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ALUM2Reg" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "Next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[10]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[10]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[10]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[10]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[11]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[11]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[11]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[11]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[12]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[12]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[12]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[12]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[13]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[13]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[13]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[13]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[14]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[14]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[14]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[14]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[15]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[15]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[15]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[15]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[16]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[16]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[16]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[16]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[17]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[17]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[17]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[17]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[18]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[18]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[18]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[18]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[19]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[19]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[19]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[19]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[20]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[20]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[20]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[20]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[21]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[21]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[21]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[21]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[22]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[22]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[22]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[22]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[23]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[23]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[23]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[23]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[24]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[24]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[24]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "DataMemory_reg[24]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Common 17-14] Message 'Synth 8-5545' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5544] ROM "an" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      IF |                         00000001 |                              000
+                      ID |                         00000010 |                              001
+                    EXE1 |                         00000100 |                              110
+                     WB1 |                         00100000 |                              111
+                    EXE2 |                         00001000 |                              101
+                    EXE3 |                         00010000 |                              010
+                     MEM |                         01000000 |                              011
+                     WB2 |                         10000000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'State_reg' using encoding 'one-hot' in module 'CtrlUnit'
+WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_3_1.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'out_Data_reg' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[0]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[1]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[2]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[3]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[4]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[5]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[6]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[7]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[8]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[9]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[10]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[11]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[12]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[13]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[14]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[15]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[16]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[17]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[18]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[19]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[20]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[21]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[22]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[23]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[24]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[25]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[26]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[27]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[28]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[29]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[30]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[31]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[32]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[33]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[34]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[35]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[36]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[37]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[38]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[39]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[40]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[41]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[42]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[43]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[44]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[45]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[46]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[47]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[48]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[49]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[50]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[51]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[52]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[53]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[54]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[55]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[56]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[57]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[58]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[59]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[60]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[61]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[62]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'DataMemory_reg[63]' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'out_reg' [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_4_1.v:28]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 662.730 ; gain = 453.074
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 9     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 5     
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---RAMs : 
+	              992 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 9     
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	  12 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 192   
+	   2 Input      5 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 64    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PC 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module Add 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module InsMem 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+Module CtrlUnit 
+Detailed RTL Component Info : 
++---Muxes : 
+	  12 Input      8 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module Mux_2_1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Mux_3_1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module RegFile 
+Detailed RTL Component Info : 
++---RAMs : 
+	              992 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module DataDelay 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module SignExtend 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module DataMem 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input      6 Bit       Adders := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 192   
+	   5 Input      1 Bit        Muxes := 64    
+Module Mux_4_1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module Light 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module Display 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[31]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[30]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[29]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[28]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[27]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[26]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[25]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[24]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[23]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[22]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[21]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[20]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[19]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[18]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[17]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[16]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[15]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[14]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[13]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[12]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[11]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[10]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[9]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[8]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[7]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[6]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[5]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[4]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[1]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/Choose_PC/out_reg[0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[31]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[30]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[29]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[28]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[27]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[26]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[25]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[24]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[23]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[22]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[21]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[20]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[19]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[18]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[17]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[16]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[15]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[14]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[13]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[12]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[11]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[10]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[9]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[8]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (CPU/PC/out_PC_reg_rep[7]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (clock/q_reg[19]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (clock/q_reg[20]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (clock/q_reg[21]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (clock/q_reg[22]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (clock/q_reg[23]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (clock/q_reg[24]) is unused and will be removed from module Basys3.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 687.695 ; gain = 478.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|InsMem      | p_0_out    | 128x8         | LUT            | 
+|InsMem      | p_0_out    | 128x8         | LUT            | 
+|InsMem      | p_0_out    | 128x8         | LUT            | 
+|InsMem      | p_0_out    | 128x8         | LUT            | 
+|CPU         | p_0_out    | 128x8         | LUT            | 
+|CPU         | p_0_out    | 128x8         | LUT            | 
+|CPU         | p_0_out    | 128x8         | LUT            | 
+|CPU         | p_0_out    | 128x8         | LUT            | 
++------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+--------------------------+-----------+----------------------+---------------+
+|Module Name | RTL Object               | Inference | Size (Depth x Width) | Primitives    | 
++------------+--------------------------+-----------+----------------------+---------------+
+|Basys3      | CPU/regfile/register_reg | Implied   | 32 x 32              | RAM32M x 12   | 
++------------+--------------------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 690.109 ; gain = 480.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 692.082 ; gain = 482.426
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 776.988 ; gain = 567.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 776.988 ; gain = 567.332
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 776.988 ; gain = 567.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 776.988 ; gain = 567.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 776.988 ; gain = 567.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 776.988 ; gain = 567.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 776.988 ; gain = 567.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     4|
+|2     |CARRY4 |    68|
+|3     |LUT1   |   148|
+|4     |LUT2   |   173|
+|5     |LUT3   |   632|
+|6     |LUT4   |   155|
+|7     |LUT5   |   700|
+|8     |LUT6   |  1299|
+|9     |MUXF7  |   165|
+|10    |MUXF8  |    32|
+|11    |RAM32M |    12|
+|12    |FDCE   |    39|
+|13    |FDPE   |    16|
+|14    |FDRE   |   208|
+|15    |FDSE   |     1|
+|16    |LD     |   544|
+|17    |LDP    |     5|
+|18    |IBUF   |     6|
+|19    |OBUF   |    12|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+------------+------+
+|      |Instance      |Module      |Cells |
++------+--------------+------------+------+
+|1     |top           |            |  4219|
+|2     |  CPU         |CPU         |  4101|
+|3     |    ADR       |DataDelay   |   117|
+|4     |    ALU       |ALU         |    15|
+|5     |    ALUM2DR   |DataDelay_0 |    40|
+|6     |    ALUout    |DataDelay_1 |   646|
+|7     |    Add_4     |Add         |    26|
+|8     |    Add_AB    |Add_2       |     8|
+|9     |    BDR       |DataDelay_3 |  1056|
+|10    |    CU        |CtrlUnit    |    52|
+|11    |    DataMem   |DataMem     |  1367|
+|12    |    IR        |IR          |   550|
+|13    |    Mux_3_1_2 |Mux_3_1     |     6|
+|14    |    PC        |PC          |   174|
+|15    |    regfile   |RegFile     |    12|
+|16    |  Display     |Display     |    48|
+|17    |    led_7     |led_7       |     7|
+|18    |  Light       |Light       |     5|
+|19    |  clock       |clock       |    43|
++------+--------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 776.988 ; gain = 567.332
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 227 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:42 . Memory (MB): peak = 776.988 ; gain = 231.434
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:52 . Memory (MB): peak = 776.988 ; gain = 567.332
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 635 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 561 instances were transformed.
+  LD => LDCE: 544 instances
+  LDP => LDPE: 5 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+190 Infos, 236 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 776.988 ; gain = 539.762
+INFO: [Common 17-1381] The checkpoint 'C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/synth_1/Basys3.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 776.988 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 22 01:10:36 2017...

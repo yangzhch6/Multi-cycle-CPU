@@ -1,0 +1,20 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sim_1/new/Top_sim.v,1511191040,verilog,,,,Top_sim,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/ALU.v,1511492929,verilog,,,,ALU,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/ControlUnit.v,1511198078,verilog,,,,control_unit,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/RAM.v,1511160972,verilog,,,,RAM,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/ROM.v,1511487450,verilog,,,,ROM,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/Top.v,1511487410,verilog,,,,Top,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_321.v,1511185756,verilog,,,,dataSelect_321,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_32_Bit.v,1511064312,verilog,,,,dataSelect_32_Bit,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/dataSelect_5_Bit.v,1511064280,verilog,,,,dataSelect_5_Bit,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/jump.v,1511177614,verilog,,,,jump,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pc.v,1511168900,verilog,,,,pc,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pcAddFour.v,1511185686,verilog,,,,pcAddFour,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/pcAddImm.v,1511064524,verilog,,,,pcAddImm,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/regfile.v,1511191130,verilog,,,,RegFile,,,,,,,,
+C:/Users/DELL/Desktop/mips_cpu_32/mips_cpu_32.srcs/sources_1/new/signExtend.v,1514298184,verilog,,,,signExtend,,,,,,,,

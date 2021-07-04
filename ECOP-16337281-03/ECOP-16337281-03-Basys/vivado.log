@@ -1,0 +1,136 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Dec 22 01:02:47 2017
+# Process ID: 5780
+# Current directory: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9420 C:\Users\DELL\Desktop\ECOP-16337281-03-Basys\mips_cpu_32_mul.xpr
+# Log file: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/vivado.log
+# Journal file: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 808.699 ; gain = 130.633
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/ALU.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/ALU.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Add.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Add.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Basys3.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Basys3.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Button.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Button.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/CLK_div.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/CLK_div.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/CtrlUnit.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/CtrlUnit.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataDelay.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataDelay.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/DataMem.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Display_out.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Display_out.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/IR.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/IR.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/InsMem.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/InsMem.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/MoveL.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/MoveL.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_2_1.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_2_1.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_3_1.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_3_1.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_4_1.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Mux_4_1.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/PC.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/PC.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/PCJump.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/PCJump.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/RegFile.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/RegFile.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/SignExtend.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/SignExtend.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Top.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Top.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/led_7.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/led_7.v:1]
+[Fri Dec 22 01:03:14 2017] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Dec 22 01:04:05 2017] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Dec 22 01:05:19 2017] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.3
+  **** Build date : Oct 10 2016-19:47:06
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183713194A
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {s25fl032p-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183713194A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183713194A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183713194A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/impl_1/Basys3.bin} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Basys3.v" into library work [C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.srcs/sources_1/new/Basys3.v:1]
+[Fri Dec 22 01:09:39 2017] Launched synth_1...
+Run output will be captured here: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/synth_1/runme.log
+launch_runs impl_1
+[Fri Dec 22 01:10:57 2017] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Fri Dec 22 01:12:17 2017] Launched impl_1...
+Run output will be captured here: C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/DELL/Desktop/ECOP-16337281-03-Basys/mips_cpu_32_mul.runs/impl_1/Basys3.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183713194A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183713194A
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 22 01:14:18 2017...

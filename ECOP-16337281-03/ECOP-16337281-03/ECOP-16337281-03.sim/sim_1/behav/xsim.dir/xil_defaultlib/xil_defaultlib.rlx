@@ -1,0 +1,22 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sim_1/new/test_CPU.v,1513850164,verilog,,,,test_CPU,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/ADD.v,1512916962,verilog,,,,Add,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/ALU.v,1513045470,verilog,,,,ALU,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/CtrlUnit.v,1513045557,verilog,,,,CtrlUnit,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/DataDelay.v,1512917153,verilog,,,,DataDelay,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/DataMem.v,1512917193,verilog,,,,DataMem,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/IR.v,1512917257,verilog,,,,IR,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/InsMem.v,1513011407,verilog,,,,InsMem,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/MoveL.v,1512917304,verilog,,,,MoveL,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/Mul_Cycle_CPU.v,1513327853,verilog,,,,Mul_Cycle_CPU,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/Mux_2_1.v,1512917420,verilog,,,,Mux_2_1,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/Mux_3_1.v,1512917461,verilog,,,,Mux_3_1,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/Mux_4_1.v,1512917495,verilog,,,,Mux_4_1,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/PC.v,1513851082,verilog,,,,PC,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/PCJump.v,1512917572,verilog,,,,PCJump,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/RegFile.v,1512917619,verilog,,,,RegFile,,,,,,,,
+C:/Users/DELL/Desktop/ECOP-16337281-03/ECOP-16337281-03.srcs/sources_1/new/SignExtend.v,1513037931,verilog,,,,SignExtend,,,,,,,,
